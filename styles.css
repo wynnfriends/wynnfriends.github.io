@@ -1,0 +1,78 @@
+.textAlignCenter
+{
+    text-align: center;
+}
+
+.formGrid
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    display: grid;
+    margin-bottom: 20px;
+}
+
+input
+{
+    border-radius: 10px;
+    width: 95%;
+}
+
+.hiddenButton
+{
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.font
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+}
+
+.bottomGrid
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 97.4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.topGrid
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .bottomGrid
+    {
+        grid-template-columns: 100%;
+    }
+    .topGrid
+    {
+        grid-template-columns: 100%;
+        margin-bottom: 80px;
+    }
+}
+
+.nameReveal
+{
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+button
+{
+    color: black;
+}
